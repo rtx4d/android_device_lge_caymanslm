@@ -35,6 +35,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hardware=caymanslm androidboot.fstab_suffix=caymanslm
 TARGET_KERNEL_CONFIG := lineageos_caymanslm_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
